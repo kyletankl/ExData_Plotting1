@@ -112,3 +112,33 @@ The four plots that you will need to construct are shown below.
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
+
+
+## Instructions
+Package contains the following files:
+- plot1.R
+- plot2.R
+- plot3.R
+- plot4.R
+- plot1.png
+- plot2.png
+- plot3.png
+- plot4.png
+
+plot(1-4).R
+- assumes that data is in the same parent folder as R script
+- substitute file <-"./<path to household_power_consumption.txt>"
+- each R script performs the following steps
+        1. load data
+        2. clean missing values "?" as NA
+        3. convert date, time values
+        4. plot to png graphic device
+        5. disable png graphic device
+
+
+plot(1-4).png
+- final output from plot(1-4).R
+- check these files if it has met project requirements by comparing it to the files in folder "figure/unnamed-chunk-(2-5).png"
+
+
+
